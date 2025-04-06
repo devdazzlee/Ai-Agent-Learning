@@ -1,0 +1,7 @@
+4. Interactive API Documentation
+One of FastAPI’s coolest features is that it automatically generates interactive documentation.
+
+Swagger UI:
+Visit http://127.0.0.1:8000/docs to view the Swagger UI.
+ReDoc:
+Visit http://127.0.0.1:8000/redoc to see an alternative interface.
