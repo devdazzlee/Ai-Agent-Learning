@@ -1,0 +1,18 @@
+[project]
+name = "project2"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Ahmed Raza", email = "bhaia9036@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = []
+
+[project.scripts]
+customCommand = "project2.hello.py:my_Function"
+karachi = "project2.hello:second_Function"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
