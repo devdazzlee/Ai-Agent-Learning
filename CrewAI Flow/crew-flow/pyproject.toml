@@ -16,6 +16,7 @@ dependencies = [
 crew-flow = "crew_flow:main"
 kick_off = "crew_flow.main:kick_off"
 chain_prompt = "crew_flow.crew_flow:kick_off"
+router_flow = "crew_flow.router_flow:router_flow"
 
 [build-system]
 requires = ["hatchling"]
