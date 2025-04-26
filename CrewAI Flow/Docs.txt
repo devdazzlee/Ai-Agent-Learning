@@ -1,0 +1,6 @@
+https://www.anthropic.com/engineering/building-effective-agents
+
+uv init --package crew_flow
+uv add crew ai
+source .venv/Scripts/activate
+which python.exe
