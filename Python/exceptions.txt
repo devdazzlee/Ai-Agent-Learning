@@ -1,0 +1,11 @@
+Exception	When It Occurs
+ValueError	When an operation receives an argument of the right type but an invalid value (int("abc"))
+TypeError	When an operation is applied to an inappropriate type ("5" + 3)
+IndexError	When trying to access an invalid index in a list (my_list[10] when len(my_list) < 10)
+KeyError	When trying to access a missing key in a dictionary (my_dict["missing_key"])
+ZeroDivisionError	When dividing by zero (10 / 0)
+FileNotFoundError	When trying to open a non-existent file
+AttributeError	When trying to access an invalid attribute (None.some_method())
+NameError	When a variable is not defined (print(x), but x is not defined)
+ModuleNotFoundError	When trying to import a non-existent module (import unknown_module)
+PermissionError	When trying to access a file without permission
