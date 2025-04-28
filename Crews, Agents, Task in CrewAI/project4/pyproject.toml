@@ -1,0 +1,22 @@
+[project]
+name = "project4"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Ahmed Raza", email = "bhaia9036@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "crewai>=0.117.1",
+    "crewai-tools>=0.42.2",
+    "litellm>=1.67.2",
+]
+
+[project.scripts]
+project4 = "project4:main"
+project4_kickoff = "project4.test:kickoff"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
