@@ -25,12 +25,11 @@ class PanaFlow(Flow):
     
     @listen("generate_topic")
     def generate_content(self):
-        
         print(f"Generating content for topic")
-        
-        result = TeachingCrew().crew().kickoff(
+        crew = TeachingCrew().crew()
+        result = crew.kickoff(
             inputs={
-             "topic": self.state["topic"]
+                "topic": self.state["topic"]
             },
         )        
         print(f"Generating content result  {result.raw}")

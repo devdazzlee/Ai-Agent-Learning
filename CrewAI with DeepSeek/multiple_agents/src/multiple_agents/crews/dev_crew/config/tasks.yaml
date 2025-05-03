@@ -1,0 +1,24 @@
+write_code:
+  description: >
+    you have to write python solution with out type hint for this problem '{problem}'
+  expected_output: >
+    return python code only
+  agent: junior_python_developer
+
+
+
+
+review_code:
+  description: >
+    review the python code generate by junoir_python_developer for this problem '{problem}'
+    optimize the code
+    apply type hints
+    apply pydocs
+    write 3 pytest test for the code 
+  expected_output: >
+    return python code only
+  agent: senior_python_developer
+
+
+
+

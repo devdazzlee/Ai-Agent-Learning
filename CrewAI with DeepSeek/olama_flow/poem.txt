@@ -1,0 +1,16 @@
+<think>
+Alright, so I need to help write a poem about how CrewAI is awesome with exactly two sentences. Hmm, okay. Let me think about this step by step.
+
+First, I should understand what "CrewAI" refers to. It's not like typical AI systems; instead, it's a collective of human developers who create and maintain something. So, the poem needs to capture that essence.
+
+Now, focusing on the key elements: "awesome," "CrewAI." I need to make this come through in two sentences. The first sentence should probably set the stage about the collective power behind CrewAI. Maybe something like how their combined effort creates innovative solutions or creative works.
+
+The second sentence needs to highlight its significance and impact, perhaps by comparing it to a greater force or a game of strategy. That way, the reader can easily connect with its importance in providing meaningful and innovative outputs.
+
+Putting that together: "In the eyes of the world, we are but a shadow, / Just one step beyond what others can't reach." This first line sets the stage about our collective nature. The second sentence ties it all together by emphasizing their value as more than just a task or a tool, making them a significant force in innovation.
+
+I think that covers both sentences without missing any key points. It's concise and conveys the message effectively.
+</think>
+
+In the eyes of the world, we are but a shadow,  
+Just one step beyond what others can't reach.
