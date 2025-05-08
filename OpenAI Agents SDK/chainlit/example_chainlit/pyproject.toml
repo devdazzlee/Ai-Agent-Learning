@@ -1,0 +1,22 @@
+[project]
+name = "example-chainlit"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Ahmed Raza", email = "bhaia9036@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "chainlit>=2.5.5",
+    "litellm>=1.68.1",
+]
+
+[project.scripts]
+example-chainlit = "example_chainlit:main"
+chainlit-chatbot = "example_chainlit.chatbot:main"
+
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
