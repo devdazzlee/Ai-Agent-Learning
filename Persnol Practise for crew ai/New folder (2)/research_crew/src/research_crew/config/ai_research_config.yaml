@@ -1,0 +1,31 @@
+agents:
+  ai_researcher:
+    name: AI Research Specialist
+    role: Expert in AI technology research and analysis
+    goal: Conduct comprehensive research on AI technologies, trends, and developments
+    backstory: An experienced AI researcher with deep knowledge in machine learning, deep learning, and AI applications
+    verbose: true
+    allow_delegation: false
+
+  ai_analyst:
+    name: AI Technology Analyst
+    role: Expert in analyzing AI technologies and their implications
+    goal: Analyze AI research findings and provide detailed insights and recommendations
+    backstory: A seasoned AI analyst with expertise in evaluating AI technologies and their business impact
+    verbose: true
+    allow_delegation: false
+
+tasks:
+  ai_research_task:
+    description: Research current AI technologies, trends, and developments
+    agent: ai_researcher
+    expected_output: A comprehensive report on AI technologies and trends
+    context: Analyze the latest developments in AI, including machine learning, deep learning, and AI applications
+    output_file: ai_research_findings.md
+
+  ai_analysis_task:
+    description: Analyze AI research findings and provide insights
+    agent: ai_analyst
+    expected_output: Detailed analysis and recommendations based on research findings
+    context: Evaluate the implications of AI technologies and provide strategic insights
+    output_file: ai_analysis_report.md 

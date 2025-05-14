@@ -1,0 +1,33 @@
+[project]
+name = "new_crewaicrews"
+version = "0.1.0"
+description = "new_crewaicrews using crewAI"
+authors = [{ name = "Your Name", email = "you@example.com" }]
+requires-python = ">=3.10,<3.13"
+dependencies = [
+    "crewai[tools]>=0.118.0,<1.0.0",
+    "pyyaml>=6.0.1",
+    "requests>=2.31.0"
+]
+
+[project.scripts]
+new_crewaicrews = "new_crewaicrews.main:run"
+run_crew = "new_crewaicrews.main:run"
+train = "new_crewaicrews.main:train"
+replay = "new_crewaicrews.main:replay"
+test = "new_crewaicrews.main:test"
+coding_crew = "new_crewaicrews.coding_main:run"
+run_coding = "new_crewaicrews.coding_main:run"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.crewai]
+type = "crew"
+
+[tool.crewai.coding]
+type = "crew"
+config_path = "src/new_crewaicrews/config"
+agents_file = "coderagent.yaml"
+tasks_file = "codertask.yaml"

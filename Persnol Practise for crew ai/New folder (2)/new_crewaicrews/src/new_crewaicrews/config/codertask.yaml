@@ -1,0 +1,43 @@
+python_coding_task:
+  description: >
+    Write a Python function to {task_description}
+    Follow Python best practices and include proper documentation.
+    Make sure to handle edge cases and include error handling where necessary.
+  expected_output: >
+    A complete Python function with:
+    - Function definition with proper docstring
+    - Input validation and error handling
+    - Clear and efficient implementation
+    - Example usage with test cases
+    - Time and space complexity analysis
+  agent: python_developer
+
+code_review_task:
+  description: >
+    Review the provided Python code and suggest improvements for:
+    - Code quality and readability
+    - Performance optimization
+    - Security considerations
+    - Best practices adherence
+    - Documentation completeness
+  expected_output: >
+    A detailed code review report containing:
+    - List of identified issues
+    - Suggested improvements with code examples
+    - Security recommendations
+    - Performance optimization tips
+    - Documentation improvements
+  agent: senior_developer
+
+code_testing_task:
+  description: >
+    Create comprehensive unit tests for the provided Python code.
+    Ensure high test coverage and include edge cases.
+  expected_output: >
+    A complete test suite containing:
+    - Unit tests for all functions
+    - Test cases for edge cases
+    - Mock objects where necessary
+    - Test documentation
+    - Coverage report
+  agent: test_engineer
