@@ -1,0 +1,10 @@
+write_news:
+  description: >
+    Write a comprehensive news article about the latest developments in AI technology.
+    The article should be well-researched, engaging, and accessible to a general audience.
+    Include relevant facts, expert opinions, and real-world implications.
+  expected_output: >
+    A well-structured news article that covers the latest AI developments,
+    including a compelling headline, clear introduction, detailed body,
+    and thoughtful conclusion. The article should be informative yet engaging.
+  agent: news_writer
