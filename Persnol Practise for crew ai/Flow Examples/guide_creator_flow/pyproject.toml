@@ -15,6 +15,7 @@ plot = "guide_creator_flow.main:plot"
 news_kickoff = "guide_creator_flow.newsmain:kickoff"
 run_news = "guide_creator_flow.newsmain:kickoff"
 plot_news = "guide_creator_flow.newsmain:plot"
+run_example = "guide_creator_flow.ExampleFlow:kickoff"
 
 [build-system]
 requires = ["hatchling"]
